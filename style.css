@@ -95,7 +95,8 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 400px;
+    height: auto;
+    padding-bottom: 80px;
     background: radial-gradient(circle at 100%, #badfe063, #7bdaf1 100%, #1b96c7 50%, #0deafa 55%);
     background-size: cover;
     background-position: center;
@@ -160,7 +161,8 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: auto;
+    padding-bottom: 50px;
     background-color: #FFFFFF;
     text-align: center;
     padding-top: 80px;
@@ -421,6 +423,77 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
+}
 
 
+
+@media only screen and (max-width: 390px) {
+    nav {
+        
+        padding: 5px;
+        height: 60px;
+    }
+
+    nav .logo img {
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+
+    nav ul {
+        padding-right: 20px;
+        gap: 15px;
+    }
+
+    .main {
+        padding-top: 60px;
+        height: auto;
+    }
+
+    .main-text {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .main p {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .icons img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .conteiner {
+        width: 100vw;
+        height: auto;
+    }
+
+    .conteiner img {
+        width: 100%;
+    }
+
+    .contact-form input,
+    textarea {
+        width: 90%;
+    }
+
+    .contact-form button {
+        width: 90%;
+    }
+
+    .social-media {
+        gap: 30px;
+    }
+    .social-media img{
+        width: 30px;
+        height: 30px;
+        
+    }
 }
