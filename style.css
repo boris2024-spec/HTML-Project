@@ -431,12 +431,15 @@ footer {
     nav {
         
         padding: 5px;
-        height: 60px;
+        height: 50px;
     }
 
     nav .logo img {
         width: 50px;
         height: 50px;
+        display: none;
+    }
+    .signature{
         display: none;
     }
 
