@@ -1,10 +1,17 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
     font-family: heebo, regular;
 
 }
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 
 
 
@@ -49,17 +56,18 @@ nav ul {
     gap: 30px;
 }
 
-nav ul li {
+nav ul li a {
     font-family: Heebo, regular;
     font-size: 18px;
     font-weight: 700px;
     color: #444444;
     gap: 60px;
     transition: 0.3s;
+    text-decoration: none;
 
 }
 
-nav ul li:hover {
+nav ul li a:hover {
     color: #1AE0EC;
     transition: 0.3s;
     cursor: pointer;
@@ -80,6 +88,7 @@ nav ul li:hover {
 }
 
 .main {
+    padding-top: 80px;
     direction: rtl;
     display: flex;
     flex-direction: column;
@@ -154,7 +163,7 @@ nav ul li:hover {
     height: 70vh;
     background-color: #FFFFFF;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     font-family: Heebo, regular;
 }
 
@@ -210,7 +219,7 @@ nav ul li:hover {
 
 .works {
     width: 100vw;
-    padding-top: 50px;
+    padding-top: 80px;
     justify-items: center;
     background-color: #F6F6F6;
 
