@@ -52,6 +52,9 @@ nav .logo img {
     display: none;
 
 }
+#hamburger[type="checkbox"]:{
+    display: none;
+}
 
 nav ul {
     list-style-type: none;
@@ -470,14 +473,14 @@ footer {
 @media screen and (max-width: 600px) {
 
 input[type="checkbox"]:checked nav ul {
-        display: none;
-
-    }
-
-    #hamburger {
         display: block;
-        
+
     }
+    input[type="checkbox"]:checked #hamburger{
+        display: none;
+    }
+
+
 
     nav {
 
