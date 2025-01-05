@@ -7,8 +7,9 @@
 }
 
 
-html {
+html, body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 
 }
 
@@ -555,8 +556,11 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
+        
 
     }
+   
+    
 
     .contacts img {
         width: 100%;
