@@ -476,14 +476,14 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-    input[type="checkbox"]:checked nav ul {
+    /* input[type="checkbox"]:checked nav ul {
         display: block;
 
     }
 
     input[type="checkbox"]:checked #hamburger {
         display: none;
-    }
+    } */
 
 
 
@@ -542,8 +542,9 @@ footer {
     }
 
     .conteiner {
-        width: 100vw;
+        width: 90vw;
         height: auto;
+        
 
     }
 
@@ -586,4 +587,3 @@ footer {
         height: 30px;
 
     }
-}
