@@ -284,6 +284,7 @@ nav ul li a:hover {
     border-radius: 10px;
     transition: 0.3s;
     overflow: hidden;
+
 }
 
 .img {
@@ -296,7 +297,8 @@ nav ul li a:hover {
     width: 405px;
     border-radius: 10px 10px 0 0;
     transition: 0.9s;
-    overflow: hidden;
+    /* overflow: hidden; */
+
 
 }
 
@@ -305,6 +307,7 @@ nav ul li a:hover {
     transition: 0.9s;
     cursor: pointer;
     filter: brightness(0.8);
+
 
 
 
@@ -347,17 +350,13 @@ nav ul li a:hover {
     align-items: center;
     background-color: #3A3A3A;
 
+
 }
 
 
 .contacts img {
     width: 700px;
     height: 700px;
-
-
-
-
-
 
 
 
@@ -544,13 +543,11 @@ footer {
     .conteiner {
         width: 90vw;
         height: auto;
-        
+
 
     }
 
-    .conteiner img {
-        width: 100%;
-    }
+
 
     .contacts {
         display: flex;
@@ -565,7 +562,7 @@ footer {
 
 
     .contacts img {
-        width: 100%;
+        width: 110%;
         height: 100%;
     }
 
@@ -587,3 +584,4 @@ footer {
         height: 30px;
 
     }
+}
