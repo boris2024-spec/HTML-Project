@@ -10,7 +10,7 @@
 html,
 body {
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 
 }
 
@@ -444,6 +444,7 @@ form button {
     align-items: center;
     gap: 10%;
     background-color: #0deafa;
+    
 
 }
 
@@ -579,7 +580,7 @@ footer {
 }
 
 .conteiner {
-    width: 85%;
+    width: 90%;
     
 
 
