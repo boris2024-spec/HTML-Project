@@ -518,15 +518,19 @@ footer {
         padding-top: 10px;
         padding-bottom: 10px;
         height: auto;
+        border-radius: 10px;
     }
 
     nav ul li a {
         font-size: 16px;
         color: #ffffff;
-        border-bottom: 1px solid #ffffff;
+        
         padding-bottom: 10px;
         width: auto;
 
+    }
+    /* nav ul li {
+        border-bottom: 1px solid #ffffff; */
     }
 
     .main {
