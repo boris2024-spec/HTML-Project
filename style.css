@@ -254,7 +254,7 @@ nav ul li a:hover {
 }
 
 .conteiners {
-
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -282,6 +282,8 @@ nav ul li a:hover {
     border-radius: 10px;
     transition: 0.3s;
     overflow: hidden;
+    text-decoration: none;
+    /* list-style-type: none; */
 
 }
 
