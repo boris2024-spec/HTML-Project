@@ -95,3 +95,84 @@ button {
     font-family: 'Heebo', sans-serif;
     margin-top: 30px;
 }
+
+@media (max-width: 768px) {
+    form {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        right: 0;
+        padding: 0;
+    }
+    img {
+        width: 100%;
+        height: 220px;
+        object-fit:fill ;
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    form {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        top: 50px;
+        right: 40px;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    h1 {
+       
+        top: 100px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Heebo', sans-serif;
+        bottom: 500px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Heebo', sans-serif;
+        margin-bottom: 20px;
+        
+    }
+
+    label {
+        font-size: 16px;
+        font-weight: 300;
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Heebo', sans-serif;
+        margin-bottom: 20px;
+    }
+    .form-container {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+        
+        
+    }
+    
+}
+
+
+
+
+
