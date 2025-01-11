@@ -92,6 +92,7 @@ body {
     justify-content: end;
     /* position: relative; */
     padding-left: 130px;
+  
 
 }
 
@@ -197,8 +198,8 @@ form button:hover {
 }
 
 .footer{
-    position: absolute;
-    width:52vw;
+    position: fixed;
+    width:50%;
     height: 15px;
     background-color: #FDBD03;
     left: 0;
@@ -210,7 +211,7 @@ form button:hover {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1060px) {
     .pass{
         width: 80%;
         
