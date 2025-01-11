@@ -19,6 +19,7 @@ body {
 
 
 nav {
+    
     position: sticky;
     top: 0;
     display: flex;
@@ -551,7 +552,7 @@ footer {
     }
 
     nav ul li {
-        border-bottom: 1px solid #ffffff; */
+        border-bottom: 1px solid #ffffff;
 } 
 
 .main {
