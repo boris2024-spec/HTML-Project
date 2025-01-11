@@ -17,10 +17,13 @@ body {
 
 
 
-img {
+/* .img {
     width: 50%;
     height: 50%;
-}
+    
+} */
+
+
 
 .form-area {
     width: 50%;
@@ -117,7 +120,7 @@ button {
     position: relative;
     
     
-   
+
 }
 
 @media (max-width: 768px) {
@@ -155,7 +158,7 @@ button {
         width: 100%;
         height: 40px;
     }
-    img {
+    .contacts img {
         width: 400px;
         height: 100%;
         object-fit: cover;
