@@ -247,6 +247,9 @@ nav ul li a:hover {
 
 
 }
+.works a {
+    text-decoration: none;
+}
 
 .works h1 {
     margin-bottom: 50px;
