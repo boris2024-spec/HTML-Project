@@ -131,7 +131,7 @@ p {
     cursor: pointer;
 }
 
-.project1 {
+.project4 {
     position: relative;
     width: 100%;
     height: 100%;
@@ -145,11 +145,11 @@ p {
 
 }
 
-.project1 img {
+.project4 img {
     
     width: 900px;
     height: 500px;
-    object-fit: cover;
+    object-fit: fill;
     top: 100px;
 
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, .7);
