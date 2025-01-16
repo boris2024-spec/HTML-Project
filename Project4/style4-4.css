@@ -238,11 +238,13 @@ footer p {
         text-align: center;
     }
 
-    .project1 img {
+    .project4 img {
         width: 100%;
         height: 100%;
+        
     }
         .social-media {
+            
             gap: 30px;
         }
     
