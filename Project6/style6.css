@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.img {
+    position: relative;
+    background-image: url("images/Path\ 15@2x.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 745px;
+    bottom: 100px;
+}
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #D3E10E;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 26px;
+    color: #F9F9F9;
+}
+
+.form form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    text-align: center;
+    
+}
+
+.form-group {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.form-group label { 
+    text-align: right;
+    font-size: 22px;
+    color: #011560;
+
+}
+
+.form-group input {
+    width: 400px;
+    height: 50px;   
+    border-bottom: 5px solid #D3E10E;
+    background-color:#F6F6F6;
+    font-size: 26px;
+    color: #011560;
+    padding: 10px;
+}
+
+button {
+    position: relative;
+    top: 14px;
+    width: 150px;
+    height: 50px;
+    background-color: #D3E10E;
+    color: #011560;
+    font-size: 26px;
+    border: none;
+    
+    cursor: pointer;
+    bottom: 0;
+}
+
+@media (max-width: 1050px) {
+    .main {
+        height: 800px;
+    }
+    .img {
+        height: 400px;
+        width: 100%;
+        top: 0px;
+        
+
+    }
+    .img-text {
+        width: 100%;
+        top: 170px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .form form {
+        flex-direction: column;
+        padding-left: 20px;
+            padding-right: 20px;
+            height: 100%;
+        }
+    
+
+    .form {
+        position: relative;
+        top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+
+}
+
+.form-group input {
+    width: 300px;
+    height: 40px;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
