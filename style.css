@@ -476,10 +476,8 @@ footer {
     display: flex;
 }
 
-#hamburger,
-#menu {
+input[type="checkbox"] {
     display: none;
-
 }
 
 
