@@ -263,7 +263,7 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
     justify-items: center;
     align-items: center;
     text-align: center;
