@@ -10,7 +10,6 @@
 html,
 body {
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
 
 }
 
@@ -242,6 +241,7 @@ nav ul li a:hover {
 .works {
     width: 100%;
     padding-top: 80px;
+    padding-bottom: 30px;
     justify-items: center;
     background-color: #F6F6F6;
 
@@ -258,25 +258,19 @@ nav ul li a:hover {
 
 }
 
-.conteiners {
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.conteiners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     justify-content: center;
+    justify-items: center;
     align-items: center;
-    gap: 40px;
-    padding-bottom: 100px;
-    padding-top: 30px;
-    padding-left: 300px;
-    padding-right: 300px;
     text-align: center;
 
-
-
-
-
 }
+
+
 
 .conteiner {
     width: 350px;
@@ -325,7 +319,7 @@ nav ul li a:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
     transition: 0.3s;
     cursor: pointer;
-    /* transform: scale(1.1); */
+
 }
 
 .conteiner h2 {
@@ -521,7 +515,7 @@ footer {
     nav .logo img {
         width: 30px;
         height: 30px;
-        /* display: none; */
+
     }
 
     .signature {
@@ -587,16 +581,9 @@ footer {
         padding-right: 20px;
     }
 
-    .conteiner {
-        width: auto;
-        height: auto;
-
-
-
-
-
+    .conteiners {
+        grid-template-columns: repeat(1, 1fr);
     }
-
 
 
     .contacts {
@@ -611,8 +598,9 @@ footer {
 
 
 
+
     .contacts img {
-        width: 110%;
+        width: 100%;
         height: 100%;
     }
 
