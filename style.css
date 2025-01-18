@@ -124,6 +124,7 @@ nav ul li a:hover {
 .main-text {
     font-family: Heebo, regular;
     font-size: 40px;
+    font-weight: 800;
     width: 100vw;
     height: auto;
     color: #3A3A3A;
