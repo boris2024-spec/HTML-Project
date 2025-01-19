@@ -231,11 +231,14 @@ form button:hover {
 
     }
     .picture img{
-        width: 150px;
-        height: 90%;
+        right: 70px;
+        width: 50%;
+        height: 50%;
         position: relative;
-        right: 0;
+        display: block;
+        
         top: 0;
+        
 
     }
     .social-media{
@@ -289,10 +292,16 @@ form button:hover {
         width: 100%;
         height: 40px;
     }
+    label{
+        display: none;
+    }
+
+
+    }
 
 
 
 
-}
+
 
 
