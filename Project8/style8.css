@@ -73,6 +73,7 @@ a img {
 }
 
 .inform-boxes {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -82,7 +83,7 @@ a img {
 }
 
 .inform-box {
-    width: 450px;
+    width: auto;
     height: 330px;
     display: flex;
     flex-direction: column;
