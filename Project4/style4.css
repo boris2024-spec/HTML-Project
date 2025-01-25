@@ -79,6 +79,7 @@ body {
     object-fit: contain;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    display: flex;
 
 }
 
@@ -90,7 +91,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    /* position: relative; */
     padding-left: 130px;
 
 
