@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hobbes', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 48vh;
+    background-color: #0EE1E1;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 20px;
+    color: #000000;
+
+
+}
+
+.text p {
+
+    text-align: right;
+    width: auto;
+    font-size: 20px;
+}
+
+.text h1 {
+    font-size: 60px;
+}
+
+.img-box {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    justify-content: right;
+    align-items: center;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.whcatsapp {
+
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+
+}
+
+a img {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.inform-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.inform-box {
+    width: 450px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    gap: 20px;
+    text-align: center;
+    padding: 25px;
+}
+
+.inform-box h2 {
+    font-size: 30px;
+    color: #0EE1E1;
+}
+
+.inform-box img {
+    width: 50px;
+    height: 50px;
+}
+
+.form-map {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-color: #F8F8F8;
+    gap: 20px;
+}
+
+.map-box {
+    position: relative;
+    background-color: #0EE1E1;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+
+
+}
+
+
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.form-box h2 {
+    font-size: 40px;
+}
+
+.form-box p {
+    font-size: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+}
+
+.form-group label {
+    font-size: 16px;
+    text-align: right;
+
+}
+
+.form-group input {
+    width: 100%;
+    height: 40px;
+    border-bottom: 3px solid #0EE1E1;
+
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #0EE1E1;
+    border: none;
+    margin-top: 20px;
+
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-bottom: 15px solid #0EE1E1;
+}
+
+.social-media-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+
+
+
+}
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: #0EE1E1;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .img-box {
+        position: relative;
+        left: 100px;
+        width: 30%;
+        height: 30%;
+
+    }
+
+
+
+    .container a {
+        display: none;
+    }
+
+    .text {
+        width: auto;
+        padding: 20px;
+    }
+
+    .inform-boxes {
+        width:auto ;
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .inform-box {
+        width: 100%;
+        height: 100%;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+
+    .inform-box p{
+        padding: 20px;
+
+    }
+    .form-map {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .map-box {
+        width: 100%;
+        height: 300px;
+        padding: 10px;
+    }
+
+    .form-box {
+        width: 100%;
+        height: 50%;
+    }
+
+    .form-box {
+        padding-top: 20px;
+    }
+
+    .social-media-img {
+        gap: 18px;
+    }
+
+
+    .social-media-img a img
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-media-img a {
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+
+}
