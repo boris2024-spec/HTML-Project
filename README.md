@@ -1,4 +1,4 @@
-<h2>Hi there, I’m Boris!</h2>
+<h1>Hi there, I’m Boris!</h1>
 
 <p align="center"> <img src="https://img.shields.io/badge/HTML-F06529?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-2965F1?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> </p>
 <p 
