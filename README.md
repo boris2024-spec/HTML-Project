@@ -3,7 +3,7 @@
 <p align="center"> <img src="https://img.shields.io/badge/HTML-F06529?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-2965F1?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> </p>
 <p 
 
-  
+
   
 About Me
 Frontend Enthusiast with a passion for developing accessible, mobile-friendly websites.
