@@ -93,16 +93,37 @@ a img {
     gap: 20px;
     text-align: center;
     padding: 25px;
+    
 }
+.inform-box:hover {
+    background-color: #0EE1E1;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.inform-box:hover h2 {
+    color: #ffffff;
+}
+.inform-box:hover p {
+    color: #ffffff;
+}
+.inform-box:hover img {
+    filter: invert(1);
+}
+
+
+
+
 
 .inform-box h2 {
     font-size: 30px;
+
     color: #0EE1E1;
 }
 
 .inform-box img {
     width: 50px;
     height: 50px;
+
 }
 
 .form-map {
