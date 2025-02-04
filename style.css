@@ -258,6 +258,10 @@ nav ul li a:hover {
     text-align: center;
 
 }
+.works p {
+    direction: rtl;
+}
+
 
 
 .conteiners {
