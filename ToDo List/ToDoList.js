@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     addButton.addEventListener('click', () => {
         const taskText = taskInput.value;
-        if (taskText !== '') {
+        if (taskText.trim() !== '') {
             const newTask = document.createElement('li');
             newTask.classList.add('task-item');
             newTask.innerHTML = `
@@ -27,6 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
             event.target.closest('li').remove();
         } else if (event.target.classList.contains('btn-success')) {
             event.target.closest('li').querySelector('.task').classList.toggle('completed');
+        }
+    });
+
+    taskInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            addButton.click();
         }
     });
 });
