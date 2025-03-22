@@ -1,0 +1,176 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex: 1;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #666;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    transition: background 0.3s;
+}
+
+.task-item:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.task-item:hover {
+    background: #e0e0e0;
+}
+
+.task-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.task {
+    flex-grow: 1;
+    font-size: 1.1em;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border: none;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-green {
+    background-color: #28a745;
+}
+
+.btn-green:hover {
+    background-color: #218838;
+}
+
+.task-input {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.task-input:focus {
+    outline: none;
+    border-color: #292c30;
+    box-shadow: 1px 2px 4px rgba(38, 115, 204, 0.7);
+}
+
+
+
+.add-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-text {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    background: #fff;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+}

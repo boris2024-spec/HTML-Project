@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="ToDoList.css">
+    <script src="ToDoList.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Heading -->
+        <h1>ToDo List App</h1>
+        <h2>Your to-do list today</h2>
+        <!-- Add task -->
+        <div class="add-task">
+            <input id="taskInput" type="text" class="task-input" placeholder="Add Task" aria-label="Add Task" required>
+
+            <button id="addTaskBtn" class="btn btn-green" type="submit">Add Task</button>
+
+            <small class="form-text">Conquer your day—one task at a time!</small>
+        </div>
+        <hr style="width: 100%">
+
+        <!-- Tasks List -->
+        <div class="card">
+            <ul id="taskList" class="task-list">
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="text-center">Made with ❤️ by <a href="https://www.facebook.com/boris.bolmat" target="_blank">Boris
+                Bolmat </a>&#169</div>
+    </footer>
+</body>
+
+</html>
