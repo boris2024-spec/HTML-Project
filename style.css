@@ -152,8 +152,11 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    height: 130px;
+    height: 100%;
     border-bottom: 1px solid #3a3a3a7e;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.9em;
 }
 
 .icons img {
@@ -514,6 +517,10 @@ footer {
         padding-left: 70px;
         padding-right: 70px;
     }
+
+    .conteiners {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -525,14 +532,6 @@ footer {
     #hamburger {
         display: block;
     }
-
-    .icons {
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: 100%;
-        padding: 0.9em;
-    }
-
 
     nav {
 
@@ -641,7 +640,15 @@ footer {
     }
 
     .social-media {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 30px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        
     }
 
     .social-media img {
