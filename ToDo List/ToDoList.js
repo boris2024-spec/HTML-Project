@@ -1,13 +1,11 @@
 
 
-// Массив для хранения задач: [{ text: "Задача", completed: false }, ...]
 let tasks = [];
 
 const addButton = document.getElementById('addTaskBtn');
 const taskInput = document.getElementById('taskInput');
 const taskList = document.getElementById('taskList');
 
-// При загрузке страницы загружаем задачи из localStorage
 document.addEventListener('DOMContentLoaded', () => {
     const savedTasks = localStorage.getItem('tasks');
     if (savedTasks) {
@@ -16,23 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
     renderTasks();
 });
 
-// Обработчик для кнопки "Добавить задачу"
 addButton.addEventListener('click', () => {
     addTask();
 });
 
-// Добавление задачи при нажатии Enter
 taskInput.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
         addTask();
     }
 });
 
-// -----------------------------
-//         ФУНКЦИИ
-// -----------------------------
-
-// Добавить новую задачу
 function addTask() {
     const taskText = taskInput.value.trim();
     if (taskText !== '') {
@@ -48,7 +39,6 @@ function addTask() {
     taskInput.focus();
 }
 
-// Отрисовать (обновить) список задач
 function renderTasks() {
     taskList.innerHTML = '';
 
@@ -65,7 +55,6 @@ function renderTasks() {
           </div>
         `;
 
-        // Кнопки "Завершить" и "Удалить"
         const completeBtn = li.querySelector('.btn-success');
         const removeBtn = li.querySelector('.btn-danger');
 
@@ -80,21 +69,18 @@ function renderTasks() {
     });
 }
 
-// Переключить состояние "выполнено / не выполнено"
 function toggleTask(index) {
     tasks[index].completed = !tasks[index].completed;
     saveTasks();
     renderTasks();
 }
 
-// Удалить задачу
 function removeTask(index) {
     tasks.splice(index, 1);
     saveTasks();
     renderTasks();
 }
 
-// Сохранить задачи в localStorage
 function saveTasks() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
 }
