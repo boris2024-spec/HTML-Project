@@ -1,4 +1,4 @@
-// Инициализация переменных
+
 const cells = document.querySelectorAll(".cell");
 const status = document.getElementById("status");
 const resetBtn = document.getElementById("resetBtn");
