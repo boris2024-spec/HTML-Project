@@ -15,19 +15,9 @@ body {
     font-size: 1.2em;
 }
 
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding: 1em 0;
-    font-size: 2.5em;
-    color: #000000;
-    font-weight: 600;
-}
 
 .wrapper {
+    
     box-sizing: content-box;
     width: 26.87em;
     padding: 2.5em 3em;
@@ -185,7 +175,9 @@ footer {
     .wrapper {
         top: 10px;
         width: 90%;
+        height: auto;
         padding: 20px 10px;
+        margin-bottom: auto;
 
     }
 
