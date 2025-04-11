@@ -173,7 +173,7 @@ footer {
 
 @media screen and (max-width: 480px) {
     .wrapper {
-        top: 10px;
+        top: 25;
         width: 90%;
         height: auto;
         padding: 20px 10px;
