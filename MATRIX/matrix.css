@@ -11,3 +11,18 @@
   canvas {
       display: block;
   }
+
+  #authorName {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      color: #0F0;
+      font-family: monospace;
+      font-size: 14px;
+      z-index: 1000;
+  }
+
+  #authorName a {
+      color: #0F0;
+      text-decoration: none;
+  }
