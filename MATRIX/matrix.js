@@ -5,7 +5,7 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const characters = 'アィウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789qazwsxedcrfvtgbyhnujmikאבגדהוזחטיכלמנסעפצקראשׂתׁךףןםײ׳״םץ״םعץײיַ ـب عـﻼسص	جﺎ';
+const characters = 'アィウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789qazwsxedcrfnujmikאבגדהוזחףןםײ׳״םץ״םعץײיַ ـب عـﻼسص	جﺎ';
 
 const charsArray = characters.split('');
 
