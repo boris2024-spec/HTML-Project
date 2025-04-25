@@ -177,6 +177,7 @@
            position: relative;
            bottom: auto;
            padding: 5px;
+              font-size: 12px;
        }
 
        .copyright {
