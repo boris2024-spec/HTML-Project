@@ -143,8 +143,30 @@
    }
 
    @media screen and (max-width: 600px) {
-       .calendar {
-           width: 90%;
-       }
+         body {
 
-   }
+                padding: 10px;
+
+                font-size: 14px;
+            }
+
+            .calendar {
+                width: 100%;
+                padding: 10px;
+            }
+
+                      .hebcal-shabbat {
+                width: 90%;
+                padding: 5px;
+                      }
+
+footer {
+    position: relative;
+    bottom: auto;
+    padding: 5px;
+}
+
+        }
+           
+         
+   
