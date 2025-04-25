@@ -145,14 +145,15 @@
    @media screen and (max-width: 600px) {
        body {
            position: relative;
-           padding: 10px;
+           padding-top: 15px;
 
            font-size: 14px;
        }
 
        .calendar {
+        position: relative;
            width: 95%;
-           padding: 10px;
+           padding-top: 10px;
        }
 
        #hebcal-shabbat {
