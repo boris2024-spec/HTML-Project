@@ -165,7 +165,7 @@
        .calendar {
            position: relative;
            width: 330px;
-           padding-top: 10px;
+           padding: 10px;
        }
 
        #hebcal-shabbat {
@@ -173,6 +173,7 @@
            margin-top: 10px;
            width: 330px;
            height: 100%;
+        padding: 10px;
 
 
        }
