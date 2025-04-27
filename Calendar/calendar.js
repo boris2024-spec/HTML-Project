@@ -26,7 +26,7 @@ function renderCalendar() {
     const month = date.getMonth();
     const today = new Date();
 
-    const firstDay = new Date(year, month, 1).getDay();
+    const firstDay = new Date(year, month, 1).getDay()+1;
     const daysInMonth = new Date(year, month + 1, 0).getDate();
     const monthNames = ['ינואר', 'פברואר', 'מרץ', 'אפריל', 'מאי', 'יוני', 'יולי', 'אוגוסט', 'ספטמבר', 'אוקטובר', 'נובמבר', 'דצמבר'];
 
