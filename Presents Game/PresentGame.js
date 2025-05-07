@@ -30,7 +30,7 @@ class Present {
         this.gameArea = gameArea;
         this.basket = basket;
 
-        // создаем подарок
+        
         this.element = document.createElement("div");
         this.element.className = "present";
         this.element.style.left = this.x + "px";

@@ -30,7 +30,7 @@ let seconds = 0,
 let movesCount = 0,
     winCount = 0;
 
-//For timer
+// Timer
 const timeGenerator = () => {
     seconds += 1;
     if (seconds >= 60) {
