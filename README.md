@@ -1,18 +1,24 @@
-<h1>Hi there, I’m Boris!</h1>
+<h1 align="center">🖥️ Portfolio — Boris Bolmat</h1>
 
 <p align="center"> <img src="https://img.shields.io/badge/HTML-F06529?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-2965F1?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> </p>
 <p 
 
 
   
-About Me
-Frontend Enthusiast with a passion for developing accessible, mobile-friendly websites.
-Open Source Contributor who believes in giving back to the community.
-Constantly learning new skills—recently started exploring HTML, CSS, and JavaScript to build dynamic and interactive web applications.
-Outside of coding, I enjoy reading, music, and traveling whenever I can!
+<h2>📚 About</h2>
+I’m a front-end enthusiast who loves turning bright ideas into accessible, mobile-friendly experiences.<br>
+Most of my time is spent experimenting with HTML5, modern CSS, and vanilla JavaScript—then sharing what I learn through open-source contributions. <br>
+I enjoy the challenge of responsive design, the elegance of clean code, and the thrill of seeing an interaction feel “just right.” <br>
+When I’m not coding, you’ll find me buried in a good book, discovering new music, or planning my next adventure.
 
-Featured Project
-Check out my HTML Project: HTML Project
+
+The portfolio site highlights Boris Bolmat’s front-end learning journey and side projects.
+
+HTML Projects – static demo pages and landing layouts created to practise semantic markup and responsive design.
+
+JavaScript Projects – small interactive apps (to-do list, tic-tac-toe, memory game, “Matrix” animation, calendar picker, etc.) written in plain Vanilla JS without frameworks.
+
+The goal is to showcase proficiency with HTML 5, CSS 3, and pure JavaScript and to demonstrate the ability to deploy finished work on GitHub Pages.
 
 A simple webpage that showcases basic HTML, CSS, and JavaScript.
 
