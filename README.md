@@ -5,7 +5,7 @@
 
 
   
-<h2>📚 About</h2>
+<h2>📚 About</h2>  <br>
 I’m a front-end enthusiast who loves turning bright ideas into accessible, mobile-friendly experiences.<br>
 Most of my time is spent experimenting with HTML5, modern CSS, and vanilla JavaScript—then sharing what I learn through open-source contributions. <br>
 I enjoy the challenge of responsive design, the elegance of clean code, and the thrill of seeing an interaction feel “just right.” <br>
@@ -16,7 +16,7 @@ The portfolio site highlights Boris Bolmat’s front-end learning journey and si
 
 HTML Projects – static demo pages and landing layouts created to practise semantic markup and responsive design.
 
-JavaScript Projects – small interactive apps (to-do list, tic-tac-toe, memory game, “Matrix” animation, calendar picker, etc.) written in plain Vanilla JS without frameworks.
+JavaScript Projects – small interactive apps (to-do list, tic-tac-toe, memory game, “Matrix” animation, calendar picker, etc.) written in plain JS without frameworks.
 
 The goal is to showcase proficiency with HTML 5, CSS 3, and pure JavaScript and to demonstrate the ability to deploy finished work on GitHub Pages.
 
