@@ -8,16 +8,18 @@
 About Me
 Frontend Enthusiast with a passion for developing accessible, mobile-friendly websites.
 Open Source Contributor who believes in giving back to the community.
-Constantly learning new skills—recently started exploring HTML, JS, CSS, and more.
+Constantly learning new skills—recently started exploring HTML, CSS, and JavaScript to build dynamic and interactive web applications.
 Outside of coding, I enjoy reading, music, and traveling whenever I can!
 
 Featured Project
-Check out my HTML Project https://boris2024-spec.github.io/HTML-Project/
+Check out my HTML Project: HTML Project
 
-A simple webpage that showcases basic HTML, CSS.
+A simple webpage that showcases basic HTML, CSS, and JavaScript.
+
 Project Highlights
-Responsive Layout: It adapts to various screen sizes.
+Responsive Layout: Adapts to various screen sizes.
 Modern Design: Minimalistic styling with a user-friendly interface.
+Interactive Features: Added JavaScript functionalities for enhanced user experience.
 
 GitHub Stats
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=boris2024-spec&show_icons=true&theme=radical" alt="GitHub Stats" height="150"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=boris2024-spec&layout=compact&theme=radical" alt="Top Langs" height="150"/> </p>
