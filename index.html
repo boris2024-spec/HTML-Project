@@ -27,7 +27,9 @@
 <body>
 
     <nav>
+        <button id="theme-toggle" title="Сменить тему">🌞</button>
         <div>
+
             <label for="menu" id="hamburger">&#9776;
 
             </label>
@@ -306,7 +308,8 @@
                                 <img src="Calendar/Calendar.jpg" alt="Calendar">
                             </div>
                             <h2>Project 14</h2>
-                            <p> אפליקציית לוח שנה אינטראקטיבי המציגה חגים, מאפשרת מעבר בין חודשים, צפייה בזמני שבת בלחיצת כפתור על תאריך.
+                            <p> אפליקציית לוח שנה אינטראקטיבי המציגה חגים, מאפשרת מעבר בין חודשים, צפייה בזמני שבת
+                                בלחיצת כפתור על תאריך.
 
                             </p>
                             <button>להורדת הפרויקט</button>
@@ -369,13 +372,34 @@
         </footer>
 
 
-<script>
-const cvButton = document.getElementById('cv');
-cvButton.addEventListener('click', function() {
-    alert('קורות חיים להורדה בקרוב!');
-});
+        <script>
+            const cvButton = document.getElementById('cv');
+            cvButton.addEventListener('click', function () {
+                alert('קורות חיים להורדה בקרוב!');
+            });
 
-</script>
+
+            const toggleButton = document.getElementById("theme-toggle");
+            const body = document.body;
+
+            function updateIcon() {
+                toggleButton.textContent = body.classList.contains("dark-mode") ? "🌜" : "🌞";
+            }
+
+            
+            if (localStorage.getItem("theme") === "dark") {
+                body.classList.add("dark-mode");
+            }
+
+            updateIcon();
+
+            toggleButton.addEventListener("click", () => {
+                body.classList.toggle("dark-mode");
+                localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
+                updateIcon();
+            });
+
+        </script>
 
 
 
