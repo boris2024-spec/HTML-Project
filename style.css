@@ -638,6 +638,9 @@ footer {
 
     #hamburger {
         display: block;
+        font-size: larger;
+        font-weight: 900;
+
     }
 
     nav {
