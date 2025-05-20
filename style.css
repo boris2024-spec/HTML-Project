@@ -93,6 +93,10 @@ body.dark-mode form button {
     color: #121212;
 }
 
+body.dark-mode .main {
+    background: #353535;
+}
+
 body.dark-mode .about a button:hover,
 body.dark-mode form button:hover {
     background-color: #0bb9c5;
