@@ -335,13 +335,14 @@
                         <p>איימייל: boriaa85@gmail.com</p>
                     </div>
                     <form>
-                        <input required type="text" placeholder="שם מלא">
-                        <input required type="email" placeholder="איימייל">
-                        <input required type="tel" placeholder="טלפון">
-                        <textarea required placeholder="הודעה"></textarea>
+
+                        <input id="full-name" type="text" placeholder="שם מלא" required>
+                        <input id="email" type="email" placeholder="איימייל" required>
+                        <input id="phone" type="tel" placeholder="טלפון" required pattern="[0-9]{10}">
+
+                        <textarea id="message" required placeholder="הודעה"></textarea>
+
                         <button type="submit">שלח</button>
-
-
                     </form>
                 </div>
             </div>
